@@ -20,7 +20,6 @@ class Manusia extends Society {
 // Inherintance (Pewarisan)
 class Mahasiswa extends Manusia {
   String email = '';
-  String _password = '';
 
   Mahasiswa(String email) : super(email);
   void info() {
